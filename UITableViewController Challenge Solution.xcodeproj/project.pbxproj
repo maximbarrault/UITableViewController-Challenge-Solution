@@ -14,13 +14,13 @@
 		4D301D2A19B4810300929A71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D301D2919B4810300929A71 /* main.m */; };
 		4D301D2E19B4810300929A71 /* OJFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D301D2D19B4810300929A71 /* OJFAppDelegate.m */; };
 		4D301D3119B4810300929A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D301D2F19B4810300929A71 /* Main.storyboard */; };
-		4D301D3419B4810400929A71 /* OJFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D301D3319B4810400929A71 /* OJFViewController.m */; };
 		4D301D3619B4810400929A71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D301D3519B4810400929A71 /* Images.xcassets */; };
 		4D301D3D19B4810400929A71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D301D3C19B4810400929A71 /* XCTest.framework */; };
 		4D301D3E19B4810400929A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D301D1D19B4810300929A71 /* Foundation.framework */; };
 		4D301D3F19B4810400929A71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D301D2119B4810300929A71 /* UIKit.framework */; };
 		4D301D4719B4810400929A71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D301D4519B4810400929A71 /* InfoPlist.strings */; };
 		4D301D4919B4810400929A71 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D301D4819B4810400929A71 /* UITableViewController_Challenge_SolutionTests.m */; };
+		4D301D5419B5BBE900929A71 /* OJFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D301D5319B5BBE900929A71 /* OJFTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		4D301D2C19B4810300929A71 /* OJFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OJFAppDelegate.h; sourceTree = "<group>"; };
 		4D301D2D19B4810300929A71 /* OJFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OJFAppDelegate.m; sourceTree = "<group>"; };
 		4D301D3019B4810300929A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D301D3219B4810400929A71 /* OJFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OJFViewController.h; sourceTree = "<group>"; };
-		4D301D3319B4810400929A71 /* OJFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OJFViewController.m; sourceTree = "<group>"; };
 		4D301D3519B4810400929A71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D301D3B19B4810400929A71 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D301D3C19B4810400929A71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4D301D4419B4810400929A71 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		4D301D4619B4810400929A71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D301D4819B4810400929A71 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		4D301D5219B5BBE900929A71 /* OJFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OJFTableViewController.h; path = ../OJFTableViewController.h; sourceTree = "<group>"; };
+		4D301D5319B5BBE900929A71 /* OJFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OJFTableViewController.m; path = ../OJFTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				4D301D2C19B4810300929A71 /* OJFAppDelegate.h */,
 				4D301D2D19B4810300929A71 /* OJFAppDelegate.m */,
 				4D301D2F19B4810300929A71 /* Main.storyboard */,
-				4D301D3219B4810400929A71 /* OJFViewController.h */,
-				4D301D3319B4810400929A71 /* OJFViewController.m */,
+				4D301D5219B5BBE900929A71 /* OJFTableViewController.h */,
+				4D301D5319B5BBE900929A71 /* OJFTableViewController.m */,
 				4D301D3519B4810400929A71 /* Images.xcassets */,
 				4D301D2419B4810300929A71 /* Supporting Files */,
 			);
@@ -249,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D301D3419B4810400929A71 /* OJFViewController.m in Sources */,
 				4D301D2E19B4810300929A71 /* OJFAppDelegate.m in Sources */,
+				4D301D5419B5BBE900929A71 /* OJFTableViewController.m in Sources */,
 				4D301D2A19B4810300929A71 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
